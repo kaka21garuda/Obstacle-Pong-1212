@@ -9,34 +9,55 @@
 import SpriteKit
 
 class GameScene: SKScene {
+    
+    var centerLine: SKSpriteNode!
+    var ball:SKSpriteNode!
+    var paddleOne: SKSpriteNode!
+    var paddleTwo: SKSpriteNode!
+    
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!"
-        myLabel.fontSize = 45
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame))
         
-        self.addChild(myLabel)
+        physicsWorld.gravity = CGVector(dx: 0, dy: 0)
+        physicsBody = SKPhysicsBody(edgeLoopFromRect: view.frame)
+        
+        backgroundColor = UIColor.blackColor()
+        
+        
+        // Center line
+        let lineSize = CGSize(width: view.frame.width, height: 2)
+        centerLine = SKSpriteNode(color: UIColor.whiteColor(), size: lineSize)
+        addChild(centerLine)
+        centerLine.position.x = view.frame.width / 2
+        centerLine.position.y = view.frame.height / 2
+        
+        // Ball
+        let ballTexture = SKTexture(imageNamed: "Ball")
+        ball = SKSpriteNode(texture: ballTexture)
+        addChild(ball)
+        ball.position.x = view.frame.width / 2
+        ball.position.y = view.frame.height / 2
+        ball.physicsBody = SKPhysicsBody(circleOfRadius: 15)
+        
+        // Paddle 1 
+        let paddleOneSize = CGSize(width: 65, height: 12)
+        paddleOne = SKSpriteNode(color: UIColor.greenColor(), size: paddleOneSize)
+        addChild(paddleOne)
+        paddleOne.position.x = view.frame.width / 2
+        paddleOne.position.y = view.frame.height - 30
+        
+        // Paddle 2
+        let paddleTwoSize = CGSize(width: 65, height: 12)
+        paddleTwo = SKSpriteNode(color: UIColor.blueColor(), size: paddleTwoSize)
+        addChild(paddleTwo)
+        paddleTwo.position.x = view.frame.width / 2
+        paddleTwo.position.y = view.frame.height - 630
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
        /* Called when a touch begins */
         
-        for touch in touches {
-            let location = touch.locationInNode(self)
-            
-            let sprite = SKSpriteNode(imageNamed:"Spaceship")
-            
-            sprite.xScale = 0.5
-            sprite.yScale = 0.5
-            sprite.position = location
-            
-            let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
-            
-            sprite.runAction(SKAction.repeatActionForever(action))
-            
-            self.addChild(sprite)
-        }
+        
     }
    
     override func update(currentTime: CFTimeInterval) {
