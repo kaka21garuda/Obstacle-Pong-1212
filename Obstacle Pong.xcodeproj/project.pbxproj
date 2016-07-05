@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6041BB21D2C558400F0F4A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6041BB11D2C558400F0F4A0 /* AppDelegate.swift */; };
+		C6041BB41D2C558400F0F4A0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C6041BB31D2C558400F0F4A0 /* GameScene.sks */; };
+		C6041BB61D2C558400F0F4A0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6041BB51D2C558400F0F4A0 /* GameScene.swift */; };
+		C6041BB81D2C558400F0F4A0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6041BB71D2C558400F0F4A0 /* GameViewController.swift */; };
+		C6041BBB1D2C558400F0F4A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6041BB91D2C558400F0F4A0 /* Main.storyboard */; };
+		C6041BBD1D2C558400F0F4A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6041BBC1D2C558400F0F4A0 /* Assets.xcassets */; };
+		C6041BC01D2C558400F0F4A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6041BBE1D2C558400F0F4A0 /* LaunchScreen.storyboard */; };
+		C6041BCB1D2C558400F0F4A0 /* Obstacle_PongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6041BCA1D2C558400F0F4A0 /* Obstacle_PongTests.swift */; };
+		C6041BD61D2C558400F0F4A0 /* Obstacle_PongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6041BD51D2C558400F0F4A0 /* Obstacle_PongUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6041BC71D2C558400F0F4A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6041BA61D2C558400F0F4A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6041BAD1D2C558400F0F4A0;
+			remoteInfo = "Obstacle Pong";
+		};
+		C6041BD21D2C558400F0F4A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6041BA61D2C558400F0F4A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6041BAD1D2C558400F0F4A0;
+			remoteInfo = "Obstacle Pong";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6041BAE1D2C558400F0F4A0 /* Obstacle Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Obstacle Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6041BB11D2C558400F0F4A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6041BB31D2C558400F0F4A0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C6041BB51D2C558400F0F4A0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C6041BB71D2C558400F0F4A0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C6041BBA1D2C558400F0F4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6041BBC1D2C558400F0F4A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6041BBF1D2C558400F0F4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6041BC11D2C558400F0F4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6041BC61D2C558400F0F4A0 /* Obstacle PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Obstacle PongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6041BCA1D2C558400F0F4A0 /* Obstacle_PongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle_PongTests.swift; sourceTree = "<group>"; };
+		C6041BCC1D2C558400F0F4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6041BD11D2C558400F0F4A0 /* Obstacle PongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Obstacle PongUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6041BD51D2C558400F0F4A0 /* Obstacle_PongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle_PongUITests.swift; sourceTree = "<group>"; };
+		C6041BD71D2C558400F0F4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6041BAB1D2C558400F0F4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6041BC31D2C558400F0F4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6041BCE1D2C558400F0F4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6041BA51D2C558400F0F4A0 = {
+			isa = PBXGroup;
+			children = (
+				C6041BB01D2C558400F0F4A0 /* Obstacle Pong */,
+				C6041BC91D2C558400F0F4A0 /* Obstacle PongTests */,
+				C6041BD41D2C558400F0F4A0 /* Obstacle PongUITests */,
+				C6041BAF1D2C558400F0F4A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6041BAF1D2C558400F0F4A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6041BAE1D2C558400F0F4A0 /* Obstacle Pong.app */,
+				C6041BC61D2C558400F0F4A0 /* Obstacle PongTests.xctest */,
+				C6041BD11D2C558400F0F4A0 /* Obstacle PongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6041BB01D2C558400F0F4A0 /* Obstacle Pong */ = {
+			isa = PBXGroup;
+			children = (
+				C6041BB11D2C558400F0F4A0 /* AppDelegate.swift */,
+				C6041BB31D2C558400F0F4A0 /* GameScene.sks */,
+				C6041BB51D2C558400F0F4A0 /* GameScene.swift */,
+				C6041BB71D2C558400F0F4A0 /* GameViewController.swift */,
+				C6041BB91D2C558400F0F4A0 /* Main.storyboard */,
+				C6041BBC1D2C558400F0F4A0 /* Assets.xcassets */,
+				C6041BBE1D2C558400F0F4A0 /* LaunchScreen.storyboard */,
+				C6041BC11D2C558400F0F4A0 /* Info.plist */,
+			);
+			path = "Obstacle Pong";
+			sourceTree = "<group>";
+		};
+		C6041BC91D2C558400F0F4A0 /* Obstacle PongTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6041BCA1D2C558400F0F4A0 /* Obstacle_PongTests.swift */,
+				C6041BCC1D2C558400F0F4A0 /* Info.plist */,
+			);
+			path = "Obstacle PongTests";
+			sourceTree = "<group>";
+		};
+		C6041BD41D2C558400F0F4A0 /* Obstacle PongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6041BD51D2C558400F0F4A0 /* Obstacle_PongUITests.swift */,
+				C6041BD71D2C558400F0F4A0 /* Info.plist */,
+			);
+			path = "Obstacle PongUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6041BAD1D2C558400F0F4A0 /* Obstacle Pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6041BDA1D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Obstacle Pong" */;
+			buildPhases = (
+				C6041BAA1D2C558400F0F4A0 /* Sources */,
+				C6041BAB1D2C558400F0F4A0 /* Frameworks */,
+				C6041BAC1D2C558400F0F4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Obstacle Pong";
+			productName = "Obstacle Pong";
+			productReference = C6041BAE1D2C558400F0F4A0 /* Obstacle Pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6041BC51D2C558400F0F4A0 /* Obstacle PongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6041BDD1D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Obstacle PongTests" */;
+			buildPhases = (
+				C6041BC21D2C558400F0F4A0 /* Sources */,
+				C6041BC31D2C558400F0F4A0 /* Frameworks */,
+				C6041BC41D2C558400F0F4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6041BC81D2C558400F0F4A0 /* PBXTargetDependency */,
+			);
+			name = "Obstacle PongTests";
+			productName = "Obstacle PongTests";
+			productReference = C6041BC61D2C558400F0F4A0 /* Obstacle PongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6041BD01D2C558400F0F4A0 /* Obstacle PongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6041BE01D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Obstacle PongUITests" */;
+			buildPhases = (
+				C6041BCD1D2C558400F0F4A0 /* Sources */,
+				C6041BCE1D2C558400F0F4A0 /* Frameworks */,
+				C6041BCF1D2C558400F0F4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6041BD31D2C558400F0F4A0 /* PBXTargetDependency */,
+			);
+			name = "Obstacle PongUITests";
+			productName = "Obstacle PongUITests";
+			productReference = C6041BD11D2C558400F0F4A0 /* Obstacle PongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6041BA61D2C558400F0F4A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Buka Cakrawala";
+				TargetAttributes = {
+					C6041BAD1D2C558400F0F4A0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C6041BC51D2C558400F0F4A0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C6041BAD1D2C558400F0F4A0;
+					};
+					C6041BD01D2C558400F0F4A0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C6041BAD1D2C558400F0F4A0;
+					};
+				};
+			};
+			buildConfigurationList = C6041BA91D2C558400F0F4A0 /* Build configuration list for PBXProject "Obstacle Pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6041BA51D2C558400F0F4A0;
+			productRefGroup = C6041BAF1D2C558400F0F4A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6041BAD1D2C558400F0F4A0 /* Obstacle Pong */,
+				C6041BC51D2C558400F0F4A0 /* Obstacle PongTests */,
+				C6041BD01D2C558400F0F4A0 /* Obstacle PongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6041BAC1D2C558400F0F4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6041BB41D2C558400F0F4A0 /* GameScene.sks in Resources */,
+				C6041BC01D2C558400F0F4A0 /* LaunchScreen.storyboard in Resources */,
+				C6041BBD1D2C558400F0F4A0 /* Assets.xcassets in Resources */,
+				C6041BBB1D2C558400F0F4A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6041BC41D2C558400F0F4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6041BCF1D2C558400F0F4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6041BAA1D2C558400F0F4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6041BB61D2C558400F0F4A0 /* GameScene.swift in Sources */,
+				C6041BB81D2C558400F0F4A0 /* GameViewController.swift in Sources */,
+				C6041BB21D2C558400F0F4A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6041BC21D2C558400F0F4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6041BCB1D2C558400F0F4A0 /* Obstacle_PongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6041BCD1D2C558400F0F4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6041BD61D2C558400F0F4A0 /* Obstacle_PongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6041BC81D2C558400F0F4A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6041BAD1D2C558400F0F4A0 /* Obstacle Pong */;
+			targetProxy = C6041BC71D2C558400F0F4A0 /* PBXContainerItemProxy */;
+		};
+		C6041BD31D2C558400F0F4A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6041BAD1D2C558400F0F4A0 /* Obstacle Pong */;
+			targetProxy = C6041BD21D2C558400F0F4A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6041BB91D2C558400F0F4A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6041BBA1D2C558400F0F4A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6041BBE1D2C558400F0F4A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6041BBF1D2C558400F0F4A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6041BD81D2C558400F0F4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6041BD91D2C558400F0F4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6041BDB1D2C558400F0F4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Obstacle Pong/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Obstacle-Pong";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6041BDC1D2C558400F0F4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Obstacle Pong/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Obstacle-Pong";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6041BDE1D2C558400F0F4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Obstacle PongTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Obstacle-PongTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Obstacle Pong.app/Obstacle Pong";
+			};
+			name = Debug;
+		};
+		C6041BDF1D2C558400F0F4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Obstacle PongTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Obstacle-PongTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Obstacle Pong.app/Obstacle Pong";
+			};
+			name = Release;
+		};
+		C6041BE11D2C558400F0F4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Obstacle PongUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Obstacle-PongUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Obstacle Pong";
+			};
+			name = Debug;
+		};
+		C6041BE21D2C558400F0F4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Obstacle PongUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Obstacle-PongUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Obstacle Pong";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6041BA91D2C558400F0F4A0 /* Build configuration list for PBXProject "Obstacle Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6041BD81D2C558400F0F4A0 /* Debug */,
+				C6041BD91D2C558400F0F4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6041BDA1D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Obstacle Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6041BDB1D2C558400F0F4A0 /* Debug */,
+				C6041BDC1D2C558400F0F4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6041BDD1D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Obstacle PongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6041BDE1D2C558400F0F4A0 /* Debug */,
+				C6041BDF1D2C558400F0F4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6041BE01D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Obstacle PongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6041BE11D2C558400F0F4A0 /* Debug */,
+				C6041BE21D2C558400F0F4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6041BA61D2C558400F0F4A0 /* Project object */;
+}
