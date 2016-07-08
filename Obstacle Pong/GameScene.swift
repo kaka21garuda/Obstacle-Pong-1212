@@ -29,6 +29,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var scoreLine2: SKSpriteNode!
     var scoreLabel1: SKLabelNode!
     var scoreLabel2: SKLabelNode!
+    var rain: SKEmitterNode!
+    var rain2: SKEmitterNode!
     var points = 0
     var points2 = 0
     
@@ -55,9 +57,18 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         physicsBody?.collisionBitMask = PhysicsCategory.Ball|PhysicsCategory.Paddle|PhysicsCategory.ScoreLine
         physicsWorld.contactDelegate = self
         
+        rain = SKEmitterNode(fileNamed: "Rain")
+        rain.position.x = view.frame.width / 2
+        rain.position.y = view.frame.height / 2
+        addChild(rain)
         
+        rain2 = SKEmitterNode(fileNamed: "Rain2")
+        rain2.position.x = view.frame.width / 2
+        rain2.position.y = view.frame.height / 2
+        addChild(rain2)
         
-        
+        let sound = SKAction.playSoundFileNamed("mySong", waitForCompletion: true)
+        self.runAction(sound)
         backgroundColor = UIColor.blackColor()
         
         let centerX = view.frame.width/2
@@ -118,7 +129,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         ball.physicsBody?.friction = 0
         ball.physicsBody?.affectedByGravity = false
         ball.physicsBody?.linearDamping = 0
-        ball.physicsBody?.velocity = CGVectorMake(400, 300)
+        ball.physicsBody?.velocity = CGVectorMake(400, 400)
         
         // Paddle 1 
         let paddleOneSize = CGSize(width: 70, height: 20)
@@ -149,6 +160,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
     }
     //MARK: touch events
+    //SONG IS added
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
        /* Called when a touch begins */
         for touch: AnyObject in touches {

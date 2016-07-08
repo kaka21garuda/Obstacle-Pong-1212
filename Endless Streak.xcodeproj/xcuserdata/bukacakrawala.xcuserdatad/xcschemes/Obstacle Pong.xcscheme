@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C6041BAD1D2C558400F0F4A0"
-               BuildableName = "Obstacle Pong.app"
-               BlueprintName = "Obstacle Pong"
-               ReferencedContainer = "container:Obstacle Pong.xcodeproj">
+               BuildableName = "Endless Streak.app"
+               BlueprintName = "Endless Streak"
+               ReferencedContainer = "container:Endless Streak.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C6041BC51D2C558400F0F4A0"
-               BuildableName = "Obstacle PongTests.xctest"
-               BlueprintName = "Obstacle PongTests"
-               ReferencedContainer = "container:Obstacle Pong.xcodeproj">
+               BuildableName = "Endless Streak.xctest"
+               BlueprintName = "Endless StreakTests"
+               ReferencedContainer = "container:Endless Streak.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C6041BD01D2C558400F0F4A0"
-               BuildableName = "Obstacle PongUITests.xctest"
-               BlueprintName = "Obstacle PongUITests"
-               ReferencedContainer = "container:Obstacle Pong.xcodeproj">
+               BuildableName = "Endless Streak.xctest"
+               BlueprintName = "Endless StreakUITests"
+               ReferencedContainer = "container:Endless Streak.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C6041BAD1D2C558400F0F4A0"
-            BuildableName = "Obstacle Pong.app"
-            BlueprintName = "Obstacle Pong"
-            ReferencedContainer = "container:Obstacle Pong.xcodeproj">
+            BuildableName = "Endless Streak.app"
+            BlueprintName = "Endless Streak"
+            ReferencedContainer = "container:Endless Streak.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C6041BAD1D2C558400F0F4A0"
-            BuildableName = "Obstacle Pong.app"
-            BlueprintName = "Obstacle Pong"
-            ReferencedContainer = "container:Obstacle Pong.xcodeproj">
+            BuildableName = "Endless Streak.app"
+            BlueprintName = "Endless Streak"
+            ReferencedContainer = "container:Endless Streak.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C6041BAD1D2C558400F0F4A0"
-            BuildableName = "Obstacle Pong.app"
-            BlueprintName = "Obstacle Pong"
-            ReferencedContainer = "container:Obstacle Pong.xcodeproj">
+            BuildableName = "Endless Streak.app"
+            BlueprintName = "Endless Streak"
+            ReferencedContainer = "container:Endless Streak.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

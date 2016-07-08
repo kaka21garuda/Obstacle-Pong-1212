@@ -19,6 +19,9 @@
 		C6041BE61D2C564200F0F4A0 /* PongBall.png in Resources */ = {isa = PBXBuildFile; fileRef = C6041BE51D2C564200F0F4A0 /* PongBall.png */; };
 		C6041BEC1D2C598B00F0F4A0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C6041BEB1D2C598B00F0F4A0 /* GameScene.sks */; };
 		C647CD481D3041FE0090A93D /* mySong.caf in Resources */ = {isa = PBXBuildFile; fileRef = C647CD471D3041FE0090A93D /* mySong.caf */; };
+		C647CD511D3055840090A93D /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = C647CD4F1D3055840090A93D /* Rain.sks */; };
+		C647CD521D3055840090A93D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = C647CD501D3055840090A93D /* spark.png */; };
+		C647CD541D3057580090A93D /* Rain2.sks in Resources */ = {isa = PBXBuildFile; fileRef = C647CD531D3057580090A93D /* Rain2.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C6041BAE1D2C558400F0F4A0 /* Obstacle Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Obstacle Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6041BAE1D2C558400F0F4A0 /* Endless Streak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Endless Streak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6041BB11D2C558400F0F4A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6041BB31D2C558400F0F4A0 /* Ball.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Ball.sks; sourceTree = "<group>"; };
 		C6041BB51D2C558400F0F4A0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -48,15 +51,18 @@
 		C6041BBC1D2C558400F0F4A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6041BBF1D2C558400F0F4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6041BC11D2C558400F0F4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6041BC61D2C558400F0F4A0 /* Obstacle PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Obstacle PongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6041BC61D2C558400F0F4A0 /* Endless Streak.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Endless Streak.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6041BCA1D2C558400F0F4A0 /* Obstacle_PongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle_PongTests.swift; sourceTree = "<group>"; };
 		C6041BCC1D2C558400F0F4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6041BD11D2C558400F0F4A0 /* Obstacle PongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Obstacle PongUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6041BD11D2C558400F0F4A0 /* Endless Streak.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Endless Streak.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6041BD51D2C558400F0F4A0 /* Obstacle_PongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle_PongUITests.swift; sourceTree = "<group>"; };
 		C6041BD71D2C558400F0F4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6041BE51D2C564200F0F4A0 /* PongBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PongBall.png; sourceTree = "<group>"; };
 		C6041BEB1D2C598B00F0F4A0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		C647CD471D3041FE0090A93D /* mySong.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mySong.caf; sourceTree = "<group>"; };
+		C647CD4F1D3055840090A93D /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		C647CD501D3055840090A93D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		C647CD531D3057580090A93D /* Rain2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain2.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 		C6041BA51D2C558400F0F4A0 = {
 			isa = PBXGroup;
 			children = (
+				C647CD4F1D3055840090A93D /* Rain.sks */,
+				C647CD531D3057580090A93D /* Rain2.sks */,
+				C647CD501D3055840090A93D /* spark.png */,
 				C647CD461D3041E10090A93D /* untitled folder */,
 				C6041BB01D2C558400F0F4A0 /* Obstacle Pong */,
 				C6041BC91D2C558400F0F4A0 /* Obstacle PongTests */,
@@ -98,9 +107,9 @@
 		C6041BAF1D2C558400F0F4A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6041BAE1D2C558400F0F4A0 /* Obstacle Pong.app */,
-				C6041BC61D2C558400F0F4A0 /* Obstacle PongTests.xctest */,
-				C6041BD11D2C558400F0F4A0 /* Obstacle PongUITests.xctest */,
+				C6041BAE1D2C558400F0F4A0 /* Endless Streak.app */,
+				C6041BC61D2C558400F0F4A0 /* Endless Streak.xctest */,
+				C6041BD11D2C558400F0F4A0 /* Endless Streak.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C6041BAD1D2C558400F0F4A0 /* Obstacle Pong */ = {
+		C6041BAD1D2C558400F0F4A0 /* Endless Streak */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6041BDA1D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Obstacle Pong" */;
+			buildConfigurationList = C6041BDA1D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Endless Streak" */;
 			buildPhases = (
 				C6041BAA1D2C558400F0F4A0 /* Sources */,
 				C6041BAB1D2C558400F0F4A0 /* Frameworks */,
@@ -163,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = "Obstacle Pong";
+			name = "Endless Streak";
 			productName = "Obstacle Pong";
-			productReference = C6041BAE1D2C558400F0F4A0 /* Obstacle Pong.app */;
+			productReference = C6041BAE1D2C558400F0F4A0 /* Endless Streak.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C6041BC51D2C558400F0F4A0 /* Obstacle PongTests */ = {
+		C6041BC51D2C558400F0F4A0 /* Endless StreakTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6041BDD1D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Obstacle PongTests" */;
+			buildConfigurationList = C6041BDD1D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Endless StreakTests" */;
 			buildPhases = (
 				C6041BC21D2C558400F0F4A0 /* Sources */,
 				C6041BC31D2C558400F0F4A0 /* Frameworks */,
@@ -181,14 +190,14 @@
 			dependencies = (
 				C6041BC81D2C558400F0F4A0 /* PBXTargetDependency */,
 			);
-			name = "Obstacle PongTests";
+			name = "Endless StreakTests";
 			productName = "Obstacle PongTests";
-			productReference = C6041BC61D2C558400F0F4A0 /* Obstacle PongTests.xctest */;
+			productReference = C6041BC61D2C558400F0F4A0 /* Endless Streak.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C6041BD01D2C558400F0F4A0 /* Obstacle PongUITests */ = {
+		C6041BD01D2C558400F0F4A0 /* Endless StreakUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6041BE01D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Obstacle PongUITests" */;
+			buildConfigurationList = C6041BE01D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Endless StreakUITests" */;
 			buildPhases = (
 				C6041BCD1D2C558400F0F4A0 /* Sources */,
 				C6041BCE1D2C558400F0F4A0 /* Frameworks */,
@@ -199,9 +208,9 @@
 			dependencies = (
 				C6041BD31D2C558400F0F4A0 /* PBXTargetDependency */,
 			);
-			name = "Obstacle PongUITests";
+			name = "Endless StreakUITests";
 			productName = "Obstacle PongUITests";
-			productReference = C6041BD11D2C558400F0F4A0 /* Obstacle PongUITests.xctest */;
+			productReference = C6041BD11D2C558400F0F4A0 /* Endless Streak.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C6041BA91D2C558400F0F4A0 /* Build configuration list for PBXProject "Obstacle Pong" */;
+			buildConfigurationList = C6041BA91D2C558400F0F4A0 /* Build configuration list for PBXProject "Endless Streak" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -241,9 +250,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6041BAD1D2C558400F0F4A0 /* Obstacle Pong */,
-				C6041BC51D2C558400F0F4A0 /* Obstacle PongTests */,
-				C6041BD01D2C558400F0F4A0 /* Obstacle PongUITests */,
+				C6041BAD1D2C558400F0F4A0 /* Endless Streak */,
+				C6041BC51D2C558400F0F4A0 /* Endless StreakTests */,
+				C6041BD01D2C558400F0F4A0 /* Endless StreakUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,7 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6041BE61D2C564200F0F4A0 /* PongBall.png in Resources */,
+				C647CD521D3055840090A93D /* spark.png in Resources */,
+				C647CD511D3055840090A93D /* Rain.sks in Resources */,
 				C6041BB41D2C558400F0F4A0 /* Ball.sks in Resources */,
+				C647CD541D3057580090A93D /* Rain2.sks in Resources */,
 				C647CD481D3041FE0090A93D /* mySong.caf in Resources */,
 				C6041BC01D2C558400F0F4A0 /* LaunchScreen.storyboard in Resources */,
 				C6041BBD1D2C558400F0F4A0 /* Assets.xcassets in Resources */,
@@ -311,12 +323,12 @@
 /* Begin PBXTargetDependency section */
 		C6041BC81D2C558400F0F4A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C6041BAD1D2C558400F0F4A0 /* Obstacle Pong */;
+			target = C6041BAD1D2C558400F0F4A0 /* Endless Streak */;
 			targetProxy = C6041BC71D2C558400F0F4A0 /* PBXContainerItemProxy */;
 		};
 		C6041BD31D2C558400F0F4A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C6041BAD1D2C558400F0F4A0 /* Obstacle Pong */;
+			target = C6041BAD1D2C558400F0F4A0 /* Endless Streak */;
 			targetProxy = C6041BD21D2C558400F0F4A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,8 +446,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Obstacle Pong/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Obstacle-Pong";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Endless-Streak";
+				PRODUCT_NAME = "Endless Streak";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -448,8 +460,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Obstacle Pong/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Obstacle-Pong";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Endless-Streak";
+				PRODUCT_NAME = "Endless Streak";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -462,8 +474,8 @@
 				INFOPLIST_FILE = "Obstacle PongTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Obstacle-PongTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Obstacle Pong.app/Obstacle Pong";
+				PRODUCT_NAME = "Endless Streak";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Endless Streak.app/Endless Streak";
 			};
 			name = Debug;
 		};
@@ -474,8 +486,8 @@
 				INFOPLIST_FILE = "Obstacle PongTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Obstacle-PongTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Obstacle Pong.app/Obstacle Pong";
+				PRODUCT_NAME = "Endless Streak";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Endless Streak.app/Endless Streak";
 			};
 			name = Release;
 		};
@@ -486,7 +498,7 @@
 				INFOPLIST_FILE = "Obstacle PongUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Obstacle-PongUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Endless Streak";
 				TEST_TARGET_NAME = "Obstacle Pong";
 			};
 			name = Debug;
@@ -497,7 +509,7 @@
 				INFOPLIST_FILE = "Obstacle PongUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Buka-Cakrawala.Obstacle-PongUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Endless Streak";
 				TEST_TARGET_NAME = "Obstacle Pong";
 			};
 			name = Release;
@@ -505,7 +517,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C6041BA91D2C558400F0F4A0 /* Build configuration list for PBXProject "Obstacle Pong" */ = {
+		C6041BA91D2C558400F0F4A0 /* Build configuration list for PBXProject "Endless Streak" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6041BD81D2C558400F0F4A0 /* Debug */,
@@ -514,7 +526,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6041BDA1D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Obstacle Pong" */ = {
+		C6041BDA1D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Endless Streak" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6041BDB1D2C558400F0F4A0 /* Debug */,
@@ -523,7 +535,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6041BDD1D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Obstacle PongTests" */ = {
+		C6041BDD1D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Endless StreakTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6041BDE1D2C558400F0F4A0 /* Debug */,
@@ -532,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6041BE01D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Obstacle PongUITests" */ = {
+		C6041BE01D2C558400F0F4A0 /* Build configuration list for PBXNativeTarget "Endless StreakUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6041BE11D2C558400F0F4A0 /* Debug */,

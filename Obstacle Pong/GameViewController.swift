@@ -14,22 +14,7 @@ class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        scoreLabel = UILabel(frame: CGRectMake(0, 0, 200, 21))
-//        scoreLabel.center = CGPointMake(160, 300)
-//        scoreLabel.textAlignment = NSTextAlignment.Center
-//        scoreLabel.text = "0"
-//        scoreLabel.textColor = UIColor.blueColor()
-//        scoreLabel.font = UIFont(name: "HelveticaNeue", size: CGFloat(30))
-//        self.view.addSubview(scoreLabel)
-//        
-//        let labelTwo = UILabel(frame: CGRectMake(0, 0, 200, 21))
-//        labelTwo.center = CGPointMake(160, 268)
-//        labelTwo.textAlignment = NSTextAlignment.Center
-//        labelTwo.text = "0"
-//        labelTwo.textColor = UIColor.greenColor()
-//        labelTwo.font = UIFont(name: "HelveticaNeue", size: CGFloat(30))
-//        self.view.addSubview(labelTwo)
-//        
+
         let scene = GameScene(size: view.frame.size)
         // Configure the view.
         let skView = self.view as! SKView
