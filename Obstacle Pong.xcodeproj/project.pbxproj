@@ -18,6 +18,7 @@
 		C6041BD61D2C558400F0F4A0 /* Obstacle_PongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6041BD51D2C558400F0F4A0 /* Obstacle_PongUITests.swift */; };
 		C6041BE61D2C564200F0F4A0 /* PongBall.png in Resources */ = {isa = PBXBuildFile; fileRef = C6041BE51D2C564200F0F4A0 /* PongBall.png */; };
 		C6041BEC1D2C598B00F0F4A0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C6041BEB1D2C598B00F0F4A0 /* GameScene.sks */; };
+		C647CD481D3041FE0090A93D /* mySong.caf in Resources */ = {isa = PBXBuildFile; fileRef = C647CD471D3041FE0090A93D /* mySong.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C6041BD71D2C558400F0F4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6041BE51D2C564200F0F4A0 /* PongBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PongBall.png; sourceTree = "<group>"; };
 		C6041BEB1D2C598B00F0F4A0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C647CD471D3041FE0090A93D /* mySong.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mySong.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		C6041BA51D2C558400F0F4A0 = {
 			isa = PBXGroup;
 			children = (
+				C647CD461D3041E10090A93D /* untitled folder */,
 				C6041BB01D2C558400F0F4A0 /* Obstacle Pong */,
 				C6041BC91D2C558400F0F4A0 /* Obstacle PongTests */,
 				C6041BD41D2C558400F0F4A0 /* Obstacle PongUITests */,
@@ -135,6 +138,14 @@
 				C6041BD71D2C558400F0F4A0 /* Info.plist */,
 			);
 			path = "Obstacle PongUITests";
+			sourceTree = "<group>";
+		};
+		C647CD461D3041E10090A93D /* untitled folder */ = {
+			isa = PBXGroup;
+			children = (
+				C647CD471D3041FE0090A93D /* mySong.caf */,
+			);
+			path = "untitled folder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +255,7 @@
 			files = (
 				C6041BE61D2C564200F0F4A0 /* PongBall.png in Resources */,
 				C6041BB41D2C558400F0F4A0 /* Ball.sks in Resources */,
+				C647CD481D3041FE0090A93D /* mySong.caf in Resources */,
 				C6041BC01D2C558400F0F4A0 /* LaunchScreen.storyboard in Resources */,
 				C6041BBD1D2C558400F0F4A0 /* Assets.xcassets in Resources */,
 				C6041BEC1D2C598B00F0F4A0 /* GameScene.sks in Resources */,
